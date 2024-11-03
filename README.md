@@ -1,8 +1,9 @@
 # Youtube Video Archive
 
 ## Overview
-This project is a tool for youtube shorts content creators who need to track the script and Spring Boot application built with Maven.
+This project is a tool for youtube content creators who need to track the script and Spring Boot application built with Maven.
 It includes a simple service for adding content to a firestore db.
+ This repo is a microservice implementation of two microservices combo. The other microservice being [Youtube Video Approval Dashboard](https://github.com/sriram-r-b/Youtube_video_approval_dashboard). Both microservices as a whole provide a complete solution for channels that need to maintain uniqueness within their content/analysis .
 
 ## Features
 - Spring Boot framework
@@ -40,7 +41,7 @@ mvn spring-boot:run
 The application exposes a REST endpoint to add content to the firestore db.
 The endpoint will be secured with Auth 0.
 Build the container and mount firebase credentials in secrets folder
-```
+
 
 
 ## Contributing
